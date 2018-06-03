@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C3410E20C2612200FD0C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3410D20C2612200FD0C18 /* AppDelegate.swift */; };
+		18C3411320C2612200FD0C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3411120C2612200FD0C18 /* Main.storyboard */; };
+		18C3411520C2612300FD0C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3411420C2612300FD0C18 /* Assets.xcassets */; };
+		18C3411820C2612300FD0C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3411620C2612300FD0C18 /* LaunchScreen.storyboard */; };
+		18C3412320C2612400FD0C18 /* TokoPediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3412220C2612400FD0C18 /* TokoPediaTests.swift */; };
+		18C3412E20C2612400FD0C18 /* TokoPediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3412D20C2612400FD0C18 /* TokoPediaUITests.swift */; };
+		18C3414820C29CB200FD0C18 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18C3414520C29CB200FD0C18 /* Montserrat-Light.otf */; };
+		18C3414920C29CB200FD0C18 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18C3414620C29CB200FD0C18 /* Montserrat-Medium.otf */; };
+		18C3414A20C29CB200FD0C18 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18C3414720C29CB200FD0C18 /* Montserrat-Regular.otf */; };
+		18C3414C20C29DED00FD0C18 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3414B20C29DED00FD0C18 /* SearchViewController.swift */; };
+		18C3414E20C325AB00FD0C18 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3414D20C325AB00FD0C18 /* FilterViewController.swift */; };
+		18C3415020C331DE00FD0C18 /* ShopTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3414F20C331DE00FD0C18 /* ShopTypeViewController.swift */; };
+		18C3415220C3F27800FD0C18 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3415120C3F27800FD0C18 /* RangeSlider.swift */; };
+		18C3415520C45DB400FD0C18 /* SearchServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3415420C45DB400FD0C18 /* SearchServices.swift */; };
+		18C3415820C477E000FD0C18 /* SarchViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3415720C477E000FD0C18 /* SarchViewModels.swift */; };
+		18C3415B20C47AEC00FD0C18 /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3415A20C47AEC00FD0C18 /* SearchViewCell.swift */; };
+		18C3415D20C4865000FD0C18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18C3415C20C4865000FD0C18 /* Podfile */; };
+		18C3416020C487CD00FD0C18 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3415F20C487CD00FD0C18 /* Helpers.swift */; };
+		18C3416220C49D2E00FD0C18 /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3416120C49D2E00FD0C18 /* SearchViewControllerTests.swift */; };
+		18C3416520C4A3ED00FD0C18 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 18C3416420C4A3ED00FD0C18 /* search.json */; };
+		18C3416720C4A64D00FD0C18 /* SearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3416620C4A64D00FD0C18 /* SearchViewModelTests.swift */; };
+		1EC34477A1B58E0D0582D1A4 /* Pods_TokoPediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */; };
+		3DFB330D9F6F384A3C45C06F /* Pods_TokoPediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */; };
+		E736943CD38F1C0E53AA139B /* Pods_TokoPedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C3411F20C2612400FD0C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C3410220C2612100FD0C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C3410920C2612100FD0C18;
+			remoteInfo = TokoPedia;
+		};
+		18C3412A20C2612400FD0C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C3410220C2612100FD0C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C3410920C2612100FD0C18;
+			remoteInfo = TokoPedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3548738148761089AAC889 /* Pods-TokoPedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia.debug.xcconfig"; sourceTree = "<group>"; };
+		18C3410A20C2612200FD0C18 /* TokoPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokoPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3410D20C2612200FD0C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C3411220C2612200FD0C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C3411420C2612300FD0C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C3411720C2612300FD0C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C3411920C2612300FD0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3411E20C2612400FD0C18 /* TokoPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3412220C2612400FD0C18 /* TokoPediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoPediaTests.swift; sourceTree = "<group>"; };
+		18C3412420C2612400FD0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3412920C2612400FD0C18 /* TokoPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3412D20C2612400FD0C18 /* TokoPediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoPediaUITests.swift; sourceTree = "<group>"; };
+		18C3412F20C2612400FD0C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3414520C29CB200FD0C18 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		18C3414620C29CB200FD0C18 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		18C3414720C29CB200FD0C18 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		18C3414B20C29DED00FD0C18 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		18C3414D20C325AB00FD0C18 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		18C3414F20C331DE00FD0C18 /* ShopTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeViewController.swift; sourceTree = "<group>"; };
+		18C3415120C3F27800FD0C18 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		18C3415420C45DB400FD0C18 /* SearchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServices.swift; sourceTree = "<group>"; };
+		18C3415720C477E000FD0C18 /* SarchViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarchViewModels.swift; sourceTree = "<group>"; };
+		18C3415A20C47AEC00FD0C18 /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		18C3415C20C4865000FD0C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		18C3415F20C487CD00FD0C18 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		18C3416120C49D2E00FD0C18 /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
+		18C3416420C4A3ED00FD0C18 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		18C3416620C4A64D00FD0C18 /* SearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelTests.swift; sourceTree = "<group>"; };
+		1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19920DAA0AC259B4F1A9F18D /* Pods-TokoPedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia.release.xcconfig"; sourceTree = "<group>"; };
+		20018CB0BA7645925C926E6D /* Pods-TokoPediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3208E3EFC7546FBA8EEA196 /* Pods-TokoPediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB4EB563F51002D35EFAAE76 /* Pods-TokoPediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaTests/Pods-TokoPediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E932B0562AAA7C2BB0B2D741 /* Pods-TokoPediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaTests/Pods-TokoPediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C3410720C2612100FD0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E736943CD38F1C0E53AA139B /* Pods_TokoPedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3411B20C2612400FD0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC34477A1B58E0D0582D1A4 /* Pods_TokoPediaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3412620C2612400FD0C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFB330D9F6F384A3C45C06F /* Pods_TokoPediaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C3410120C2612100FD0C18 = {
+			isa = PBXGroup;
+			children = (
+				18C3415C20C4865000FD0C18 /* Podfile */,
+				18C3410C20C2612200FD0C18 /* TokoPedia */,
+				18C3412120C2612400FD0C18 /* TokoPediaTests */,
+				18C3412C20C2612400FD0C18 /* TokoPediaUITests */,
+				18C3410B20C2612200FD0C18 /* Products */,
+				79F7CF13CA74335ADFD9F19D /* Pods */,
+				3CDB747EA484EDEE4AA697A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C3410B20C2612200FD0C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C3410A20C2612200FD0C18 /* TokoPedia.app */,
+				18C3411E20C2612400FD0C18 /* TokoPediaTests.xctest */,
+				18C3412920C2612400FD0C18 /* TokoPediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C3410C20C2612200FD0C18 /* TokoPedia */ = {
+			isa = PBXGroup;
+			children = (
+				18C3416320C4A3D000FD0C18 /* Stubs */,
+				18C3415E20C487BD00FD0C18 /* Helpers */,
+				18C3415920C47AB700FD0C18 /* Views */,
+				18C3415620C477B600FD0C18 /* ViewModels */,
+				18C3415320C45D9600FD0C18 /* Services */,
+				18C3414420C29C8300FD0C18 /* Resources */,
+				18C3410D20C2612200FD0C18 /* AppDelegate.swift */,
+				18C3414B20C29DED00FD0C18 /* SearchViewController.swift */,
+				18C3414D20C325AB00FD0C18 /* FilterViewController.swift */,
+				18C3414F20C331DE00FD0C18 /* ShopTypeViewController.swift */,
+				18C3415120C3F27800FD0C18 /* RangeSlider.swift */,
+				18C3411120C2612200FD0C18 /* Main.storyboard */,
+				18C3411420C2612300FD0C18 /* Assets.xcassets */,
+				18C3411620C2612300FD0C18 /* LaunchScreen.storyboard */,
+				18C3411920C2612300FD0C18 /* Info.plist */,
+			);
+			path = TokoPedia;
+			sourceTree = "<group>";
+		};
+		18C3412120C2612400FD0C18 /* TokoPediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C3412220C2612400FD0C18 /* TokoPediaTests.swift */,
+				18C3412420C2612400FD0C18 /* Info.plist */,
+				18C3416120C49D2E00FD0C18 /* SearchViewControllerTests.swift */,
+				18C3416620C4A64D00FD0C18 /* SearchViewModelTests.swift */,
+			);
+			path = TokoPediaTests;
+			sourceTree = "<group>";
+		};
+		18C3412C20C2612400FD0C18 /* TokoPediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C3412D20C2612400FD0C18 /* TokoPediaUITests.swift */,
+				18C3412F20C2612400FD0C18 /* Info.plist */,
+			);
+			path = TokoPediaUITests;
+			sourceTree = "<group>";
+		};
+		18C3414420C29C8300FD0C18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18C3414520C29CB200FD0C18 /* Montserrat-Light.otf */,
+				18C3414620C29CB200FD0C18 /* Montserrat-Medium.otf */,
+				18C3414720C29CB200FD0C18 /* Montserrat-Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18C3415320C45D9600FD0C18 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18C3415420C45DB400FD0C18 /* SearchServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18C3415620C477B600FD0C18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18C3415720C477E000FD0C18 /* SarchViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18C3415920C47AB700FD0C18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18C3415A20C47AEC00FD0C18 /* SearchViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18C3415E20C487BD00FD0C18 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18C3415F20C487CD00FD0C18 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18C3416320C4A3D000FD0C18 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				18C3416420C4A3ED00FD0C18 /* search.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		3CDB747EA484EDEE4AA697A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */,
+				96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */,
+				56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F7CF13CA74335ADFD9F19D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A3548738148761089AAC889 /* Pods-TokoPedia.debug.xcconfig */,
+				19920DAA0AC259B4F1A9F18D /* Pods-TokoPedia.release.xcconfig */,
+				E932B0562AAA7C2BB0B2D741 /* Pods-TokoPediaTests.debug.xcconfig */,
+				DB4EB563F51002D35EFAAE76 /* Pods-TokoPediaTests.release.xcconfig */,
+				20018CB0BA7645925C926E6D /* Pods-TokoPediaUITests.debug.xcconfig */,
+				B3208E3EFC7546FBA8EEA196 /* Pods-TokoPediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C3410920C2612100FD0C18 /* TokoPedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3413220C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPedia" */;
+			buildPhases = (
+				327C3F5747CEBC6B0992E62E /* [CP] Check Pods Manifest.lock */,
+				18C3410620C2612100FD0C18 /* Sources */,
+				18C3410720C2612100FD0C18 /* Frameworks */,
+				18C3410820C2612100FD0C18 /* Resources */,
+				51D01B1FEC32FE078AD00142 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokoPedia;
+			productName = TokoPedia;
+			productReference = 18C3410A20C2612200FD0C18 /* TokoPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C3411D20C2612400FD0C18 /* TokoPediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3413520C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPediaTests" */;
+			buildPhases = (
+				C94745F403F33D5731365516 /* [CP] Check Pods Manifest.lock */,
+				18C3411A20C2612400FD0C18 /* Sources */,
+				18C3411B20C2612400FD0C18 /* Frameworks */,
+				18C3411C20C2612400FD0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C3412020C2612400FD0C18 /* PBXTargetDependency */,
+			);
+			name = TokoPediaTests;
+			productName = TokoPediaTests;
+			productReference = 18C3411E20C2612400FD0C18 /* TokoPediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C3412820C2612400FD0C18 /* TokoPediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3413820C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPediaUITests" */;
+			buildPhases = (
+				769B6C8787B35C41EE5E8A85 /* [CP] Check Pods Manifest.lock */,
+				18C3412520C2612400FD0C18 /* Sources */,
+				18C3412620C2612400FD0C18 /* Frameworks */,
+				18C3412720C2612400FD0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C3412B20C2612400FD0C18 /* PBXTargetDependency */,
+			);
+			name = TokoPediaUITests;
+			productName = TokoPediaUITests;
+			productReference = 18C3412920C2612400FD0C18 /* TokoPediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C3410220C2612100FD0C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Lakshman;
+				TargetAttributes = {
+					18C3410920C2612100FD0C18 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					18C3411D20C2612400FD0C18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 18C3410920C2612100FD0C18;
+					};
+					18C3412820C2612400FD0C18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 18C3410920C2612100FD0C18;
+					};
+				};
+			};
+			buildConfigurationList = 18C3410520C2612100FD0C18 /* Build configuration list for PBXProject "TokoPedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C3410120C2612100FD0C18;
+			productRefGroup = 18C3410B20C2612200FD0C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C3410920C2612100FD0C18 /* TokoPedia */,
+				18C3411D20C2612400FD0C18 /* TokoPediaTests */,
+				18C3412820C2612400FD0C18 /* TokoPediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C3410820C2612100FD0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3411820C2612300FD0C18 /* LaunchScreen.storyboard in Resources */,
+				18C3416520C4A3ED00FD0C18 /* search.json in Resources */,
+				18C3414920C29CB200FD0C18 /* Montserrat-Medium.otf in Resources */,
+				18C3411520C2612300FD0C18 /* Assets.xcassets in Resources */,
+				18C3411320C2612200FD0C18 /* Main.storyboard in Resources */,
+				18C3414820C29CB200FD0C18 /* Montserrat-Light.otf in Resources */,
+				18C3415D20C4865000FD0C18 /* Podfile in Resources */,
+				18C3414A20C29CB200FD0C18 /* Montserrat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3411C20C2612400FD0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3412720C2612400FD0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327C3F5747CEBC6B0992E62E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokoPedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D01B1FEC32FE078AD00142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769B6C8787B35C41EE5E8A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokoPediaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94745F403F33D5731365516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokoPediaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C3410620C2612100FD0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3415820C477E000FD0C18 /* SarchViewModels.swift in Sources */,
+				18C3415020C331DE00FD0C18 /* ShopTypeViewController.swift in Sources */,
+				18C3414C20C29DED00FD0C18 /* SearchViewController.swift in Sources */,
+				18C3415B20C47AEC00FD0C18 /* SearchViewCell.swift in Sources */,
+				18C3416020C487CD00FD0C18 /* Helpers.swift in Sources */,
+				18C3414E20C325AB00FD0C18 /* FilterViewController.swift in Sources */,
+				18C3415220C3F27800FD0C18 /* RangeSlider.swift in Sources */,
+				18C3415520C45DB400FD0C18 /* SearchServices.swift in Sources */,
+				18C3410E20C2612200FD0C18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3411A20C2612400FD0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3416220C49D2E00FD0C18 /* SearchViewControllerTests.swift in Sources */,
+				18C3412320C2612400FD0C18 /* TokoPediaTests.swift in Sources */,
+				18C3416720C4A64D00FD0C18 /* SearchViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C3412520C2612400FD0C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3412E20C2612400FD0C18 /* TokoPediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C3412020C2612400FD0C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C3410920C2612100FD0C18 /* TokoPedia */;
+			targetProxy = 18C3411F20C2612400FD0C18 /* PBXContainerItemProxy */;
+		};
+		18C3412B20C2612400FD0C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C3410920C2612100FD0C18 /* TokoPedia */;
+			targetProxy = 18C3412A20C2612400FD0C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C3411120C2612200FD0C18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3411220C2612200FD0C18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C3411620C2612300FD0C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3411720C2612300FD0C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C3413020C2612400FD0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C3413120C2612400FD0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C3413320C2612400FD0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3548738148761089AAC889 /* Pods-TokoPedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TokoPedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C3413420C2612400FD0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19920DAA0AC259B4F1A9F18D /* Pods-TokoPedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TokoPedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C3413620C2612400FD0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E932B0562AAA7C2BB0B2D741 /* Pods-TokoPediaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokoPediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokoPedia.app/TokoPedia";
+			};
+			name = Debug;
+		};
+		18C3413720C2612400FD0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4EB563F51002D35EFAAE76 /* Pods-TokoPediaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokoPediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokoPedia.app/TokoPedia";
+			};
+			name = Release;
+		};
+		18C3413920C2612400FD0C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20018CB0BA7645925C926E6D /* Pods-TokoPediaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokoPediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokoPedia;
+			};
+			name = Debug;
+		};
+		18C3413A20C2612400FD0C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3208E3EFC7546FBA8EEA196 /* Pods-TokoPediaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokoPediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lakshman.TokoPediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokoPedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C3410520C2612100FD0C18 /* Build configuration list for PBXProject "TokoPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3413020C2612400FD0C18 /* Debug */,
+				18C3413120C2612400FD0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3413220C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3413320C2612400FD0C18 /* Debug */,
+				18C3413420C2612400FD0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3413520C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3413620C2612400FD0C18 /* Debug */,
+				18C3413720C2612400FD0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3413820C2612400FD0C18 /* Build configuration list for PBXNativeTarget "TokoPediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3413920C2612400FD0C18 /* Debug */,
+				18C3413A20C2612400FD0C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C3410220C2612100FD0C18 /* Project object */;
+}
