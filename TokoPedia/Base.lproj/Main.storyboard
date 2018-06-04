@@ -301,9 +301,10 @@
                                     <constraint firstItem="g9V-2F-8Sv" firstAttribute="top" secondItem="A7R-4D-HSK" secondAttribute="bottom" constant="30" id="Mhl-H4-rFw"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="g9V-2F-8Sv" secondAttribute="trailing" constant="20" symbolic="YES" id="OYg-iJ-XAp"/>
                                     <constraint firstAttribute="height" constant="190" id="Oj0-ny-gsX"/>
+                                    <constraint firstItem="PJ8-Nr-ZbC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mvJ-Ta-aoW" secondAttribute="trailing" constant="10" id="P0x-Hm-Zn8"/>
                                     <constraint firstAttribute="trailing" secondItem="PJ8-Nr-ZbC" secondAttribute="trailing" constant="8" id="Rn5-tS-WIW"/>
                                     <constraint firstItem="PJ8-Nr-ZbC" firstAttribute="top" secondItem="HoM-3K-Hr3" secondAttribute="top" constant="10" id="TX1-1b-qgm"/>
-                                    <constraint firstItem="mvJ-Ta-aoW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HoM-3K-Hr3" secondAttribute="leading" id="U8f-0p-bv7"/>
+                                    <constraint firstItem="mvJ-Ta-aoW" firstAttribute="leading" secondItem="HoM-3K-Hr3" secondAttribute="leading" constant="8" id="U8f-0p-bv7"/>
                                     <constraint firstItem="IoV-Sa-lRd" firstAttribute="leading" secondItem="HoM-3K-Hr3" secondAttribute="leading" constant="8" id="VK5-H7-DO0"/>
                                     <constraint firstAttribute="trailing" secondItem="IoV-Sa-lRd" secondAttribute="trailing" constant="8" id="cHG-Vo-UFa"/>
                                     <constraint firstItem="7MJ-5F-3qA" firstAttribute="top" secondItem="mvJ-Ta-aoW" secondAttribute="bottom" constant="5" id="iOq-8G-kae"/>
@@ -315,7 +316,6 @@
                                     <constraint firstAttribute="trailing" secondItem="9XR-IG-UB3" secondAttribute="trailing" constant="8" id="udZ-aw-mXz"/>
                                     <constraint firstAttribute="trailing" secondItem="A7R-4D-HSK" secondAttribute="trailing" constant="8" id="uqm-N8-jZm"/>
                                     <constraint firstItem="A7R-4D-HSK" firstAttribute="leading" secondItem="HoM-3K-Hr3" secondAttribute="leading" constant="8" id="vEN-yU-EqY"/>
-                                    <constraint firstAttribute="trailing" secondItem="mvJ-Ta-aoW" secondAttribute="trailing" constant="250" id="wCT-X2-pfN"/>
                                     <constraint firstItem="PJ8-Nr-ZbC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HoM-3K-Hr3" secondAttribute="leading" constant="20" symbolic="YES" id="wwM-DV-r4g"/>
                                     <constraint firstItem="A7R-4D-HSK" firstAttribute="top" secondItem="IoV-Sa-lRd" secondAttribute="bottom" constant="25" id="x1m-01-4VT"/>
                                     <constraint firstItem="mvJ-Ta-aoW" firstAttribute="top" secondItem="HoM-3K-Hr3" secondAttribute="top" constant="10" id="yHB-YX-aww"/>
@@ -544,7 +544,7 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="grouped" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="kx4-Hc-KA0">
                                 <rect key="frame" x="5" y="69" width="365" height="529"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellId" id="zzI-Au-tR3" customClass="ShopTypeCell" customModule="TokoPedia" customModuleProvider="target">

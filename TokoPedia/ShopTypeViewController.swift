@@ -69,6 +69,14 @@ extension ShopTypeViewController: UITableViewDataSource,UITableViewDelegate {
         return 1
     }
     
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 65
+    }
+    
 }
 
 

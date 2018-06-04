@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "check-boox-empty.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "check-boox-empty@2x.png",
       "scale" : "2x"
     },
     {
