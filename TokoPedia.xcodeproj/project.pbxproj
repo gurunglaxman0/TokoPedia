@@ -29,6 +29,9 @@
 		18C3416520C4A3ED00FD0C18 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 18C3416420C4A3ED00FD0C18 /* search.json */; };
 		18C3416720C4A64D00FD0C18 /* SearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3416620C4A64D00FD0C18 /* SearchViewModelTests.swift */; };
 		1EC34477A1B58E0D0582D1A4 /* Pods_TokoPediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */; };
+		3B1C785520D04F1F005109CD /* SearchViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C785420D04F1F005109CD /* SearchViewControllerSpec.swift */; };
+		3B59B1CF20CE940400D0439A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B59B1CE20CE940400D0439A /* Nimble.framework */; };
+		3B59B1D120CE940400D0439A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B59B1D020CE940400D0439A /* Quick.framework */; };
 		3DFB330D9F6F384A3C45C06F /* Pods_TokoPediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */; };
 		E736943CD38F1C0E53AA139B /* Pods_TokoPedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +77,7 @@
 		18C3415420C45DB400FD0C18 /* SearchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServices.swift; sourceTree = "<group>"; };
 		18C3415720C477E000FD0C18 /* SarchViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarchViewModels.swift; sourceTree = "<group>"; };
 		18C3415A20C47AEC00FD0C18 /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
-		18C3415C20C4865000FD0C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		18C3415C20C4865000FD0C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18C3415F20C487CD00FD0C18 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		18C3416120C49D2E00FD0C18 /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		18C3416420C4A3ED00FD0C18 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
@@ -82,6 +85,9 @@
 		1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19920DAA0AC259B4F1A9F18D /* Pods-TokoPedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia.release.xcconfig"; sourceTree = "<group>"; };
 		20018CB0BA7645925C926E6D /* Pods-TokoPediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1C785420D04F1F005109CD /* SearchViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewControllerSpec.swift; sourceTree = "<group>"; };
+		3B59B1CE20CE940400D0439A /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B59B1D020CE940400D0439A /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokoPediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3208E3EFC7546FBA8EEA196 /* Pods-TokoPediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokoPediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B59B1CF20CE940400D0439A /* Nimble.framework in Frameworks */,
+				3B59B1D120CE940400D0439A /* Quick.framework in Frameworks */,
 				1EC34477A1B58E0D0582D1A4 /* Pods_TokoPediaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +177,7 @@
 				18C3412420C2612400FD0C18 /* Info.plist */,
 				18C3416120C49D2E00FD0C18 /* SearchViewControllerTests.swift */,
 				18C3416620C4A64D00FD0C18 /* SearchViewModelTests.swift */,
+				3B1C785420D04F1F005109CD /* SearchViewControllerSpec.swift */,
 			);
 			path = TokoPediaTests;
 			sourceTree = "<group>";
@@ -235,6 +244,8 @@
 		3CDB747EA484EDEE4AA697A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B59B1CE20CE940400D0439A /* Nimble.framework */,
+				3B59B1D020CE940400D0439A /* Quick.framework */,
 				1940FC481FF968E7C06C8F19 /* Pods_TokoPedia.framework */,
 				96B87BF682E0531A5401D50E /* Pods_TokoPediaTests.framework */,
 				56B687F77B0B0476AC123752 /* Pods_TokoPediaUITests.framework */,
@@ -285,6 +296,7 @@
 				18C3411A20C2612400FD0C18 /* Sources */,
 				18C3411B20C2612400FD0C18 /* Frameworks */,
 				18C3411C20C2612400FD0C18 /* Resources */,
+				5BD12951F00E4CBF9D1DBC56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +316,7 @@
 				18C3412520C2612400FD0C18 /* Sources */,
 				18C3412620C2612400FD0C18 /* Frameworks */,
 				18C3412720C2612400FD0C18 /* Resources */,
+				EA6D0A32DC655504B293228A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -439,6 +452,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokoPedia/Pods-TokoPedia-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5BD12951F00E4CBF9D1DBC56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TokoPediaTests/Pods-TokoPediaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokoPediaTests/Pods-TokoPediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		769B6C8787B35C41EE5E8A85 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,6 +508,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EA6D0A32DC655504B293228A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokoPediaUITests/Pods-TokoPediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -499,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C3416220C49D2E00FD0C18 /* SearchViewControllerTests.swift in Sources */,
+				3B1C785520D04F1F005109CD /* SearchViewControllerSpec.swift in Sources */,
 				18C3412320C2612400FD0C18 /* TokoPediaTests.swift in Sources */,
 				18C3416720C4A64D00FD0C18 /* SearchViewModelTests.swift in Sources */,
 			);
@@ -666,8 +720,9 @@
 			baseConfigurationReference = 0A3548738148761089AAC889 /* Pods-TokoPedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G947M685BG;
 				INFOPLIST_FILE = TokoPedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -686,8 +741,9 @@
 			baseConfigurationReference = 19920DAA0AC259B4F1A9F18D /* Pods-TokoPedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G947M685BG;
 				INFOPLIST_FILE = TokoPedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -708,6 +764,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G947M685BG;
 				INFOPLIST_FILE = TokoPediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,6 +786,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G947M685BG;
 				INFOPLIST_FILE = TokoPediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

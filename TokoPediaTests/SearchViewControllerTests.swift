@@ -7,8 +7,8 @@
 //
 
 import XCTest
-@testable import TokoPedia
 @testable import Moya
+@testable import TokoPedia
 class SearchViewControllerTests: XCTestCase {
     var searchVC: SearchViewController!
     override func setUp() {
